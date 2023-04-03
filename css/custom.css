@@ -144,3 +144,10 @@ div#category {
     padding: 30px;
     margin: 30px 0px 0px 0px;
 }
+
+
+/* 加载动画，修改图片 */
+.loading-img {
+    background: url(/img/QQ图片20211211145634.jpg) no-repeat center center;
+    background-size: cover;
+  }
