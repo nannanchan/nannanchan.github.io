@@ -3819,7 +3819,7 @@ h1.page-title + .tag-cloud-list {
   width: 100%;
   height: 100%;
   position: fixed;
-  background: var(--nannanchan-card-bg);
+  background: #5abaf5;
   z-index: 1001;
   opacity: 1;
   -ms-filter: none;
@@ -4597,12 +4597,6 @@ h1.page-title + .tag-cloud-list {
 }
 #waline-wrap .wl-comment-actions > button:not(last-child) {
   padding-right: 4px;
-}
-#vcomment textarea {
-  background: url("/img/thumb-1920-737570.png") 100% 100% no-repeat;
-}
-#vcomment textarea:focus {
-  background-image: none;
 }
 .fireworks {
   position: fixed;

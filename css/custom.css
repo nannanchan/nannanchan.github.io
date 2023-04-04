@@ -151,3 +151,14 @@ div#category {
     background: url(/img/QQ图片20211211145634.jpg) no-repeat center center;
     background-size: cover;
   }
+
+
+/* valine评论系统的背景 */
+#veditor {
+	background-image: url(https://github.com/nannanchan/nannanchan.github.io/blob/main/img/sticker.webp?raw=true);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: rgba(255, 255, 255, 0);
+	resize: vertical
+}
