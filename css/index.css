@@ -4666,6 +4666,29 @@ span.mathjax-overflow {
 .snackbar-css {
   border-radius: 5px !important;
 }
+[data-theme="dark"] #web_bg {
+  background: url(https://github.com/nannanchan/nannanchan.github.io/blob/main/img/Konachan.com%20-%20312890%20atri_-my_dear_moments-%20black_hair%20brown_hair%20dress%20front_wing%20game_cg%20ikaruga_natsuki%20kiss%20long_hair%20night%20short_hair%20stars%20tree%20yusano.png?raw=true);
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 800px) {
+  #web_bg {
+    background: url(https://raw.githubusercontent.com/nannanchan/nannanchan.github.io/main/img/83760346_p0.png) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  [data-theme="dark"] #web_bg {
+    background: url(https://github.com/nannanchan/nannanchan.github.io/blob/main/img/Konachan.com%20-%20312890%20atri_-my_dear_moments-%20black_hair%20brown_hair%20dress%20front_wing%20game_cg%20ikaruga_natsuki%20kiss%20long_hair%20night%20short_hair%20stars%20tree%20yusano.png?raw=true) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+}
 #article-container .btn-center {
   margin: 0 0 20px;
   text-align: center;
