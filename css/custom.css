@@ -230,3 +230,24 @@ div#category {
   display: inline-block;
   position: relative;
 }
+
+
+/* Chatgpt提供的图片方案 */
+.gallery-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* 图片居中 */
+}
+
+.gallery-group a {
+    width: 48%; /* 每行显示两个图片 */
+    margin-bottom: 10px;
+}
+
+.gallery-group img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+}
